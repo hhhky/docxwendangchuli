@@ -20,8 +20,9 @@ pip install python-docx lxml
 
 ```bash
 # 复制中文模块到 skill 目录
-cp scripts/chinese_format.py ~/.agents/skills/docx/scripts/
-cp -r scripts/docx_gen/ ~/.agents/skills/docx/scripts/
+git clone https://github.com/hhhky/docxwendangchuli.git
+cp docxwendangchuli/scripts/chinese_format.py ~/.agents/skills/docx/scripts/
+cp -r docxwendangchuli/scripts/docx_gen/ ~/.agents/skills/docx/scripts/
 ```
 
 ## 快速开始
